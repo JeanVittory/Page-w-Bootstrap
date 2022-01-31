@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, .card{
+    background-color: #f6f6f6;
+    box-shadow: 0px 0px  5px rgba(0, 0, 0, .3);
+    overflow-x: hidden;
+}
+
+.btn-hover-color:hover{
+    background:#6f42c1 ;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.pr0{
+    padding-right: 0;
+}
+
+.container-courses{
+    padding: 0 2rem;
+    
+}
+
+.our-courses{
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.container-courses-last{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.container-btn-courses{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-divider{
+    margin-top: 2rem;
+}
+
+.container-testimonials{
+    width: 100%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.grid-testimonial-item{
+    background-color:#eeeeee;
+}
+
+.grid-testimonial-item{
+    margin: auto;
+} 
+
+.footer-color-font{
+    color: #eeeeee;
+}
+
+.container-footer{
+    margin-top: 5rem;
+}
+
+.container-left-footer{
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .container-courses-last, 
+    .container-testimonials{
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
